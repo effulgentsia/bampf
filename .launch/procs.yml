@@ -1,0 +1,9 @@
+processes:
+  bun:
+    command: bash
+    args:
+    - .launch/start-bun.sh
+  php:
+    command: bash
+    args:
+    - .launch/start-php.sh

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+curl -fsSL https://bun.sh/install | BUN_INSTALL=/workspace/.bun bash

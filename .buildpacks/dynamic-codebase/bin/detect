@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+cat <<EOF >> "$CNB_BUILD_PLAN_PATH"
+[[requires]]
+name = "composer"
+metadata = {launch = true}
+EOF
